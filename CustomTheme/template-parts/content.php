@@ -3,10 +3,4 @@
 */
 ?>
 
-<container-fluid>
-    <div class="background">
-     
-     
 
-    </div>
-</container-fluid>

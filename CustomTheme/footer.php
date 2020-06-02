@@ -1,6 +1,44 @@
-<div class="footer" style="background-color:#134074; height:10%; margin-top:100%">
-<img src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
+</body>
+<div class="footer" style="background-color:#134074; height:10%; margin-bottom:0; margin-top:160%; display:flex;">
+<img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
+
+<div class="socials">
+<a href="https://facebook.com/" class="fa fa-facebook"></a>
+<a href="https://instagram.com/" class="fa fa-instagram"></a>
+<a href="https://linkedin.com/" class="fa fa-linkedin"></a>
 </div>
+
+</div>
+
+<style>
+@media only screen and (max-width: 600px){
+    .flogo{
+      padding:0;
+      margin-left:-10px;
+      margin-top:-5px;
+    }
+}
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color:orange;
+  padding:15px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.socials{
+  margin-left:27%;
+  margin-top:1%;
+}
+
+ }
+
+</style>
 
 <!-- jQuery first, Poppers then Bootstrap JS -->
 
