@@ -11,7 +11,7 @@
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+
     <?php wp_head(); ?> 
 </head>
 
@@ -19,9 +19,9 @@
 <header>
 <div class=container-fullwidth>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #014077">
   <div class="navbar-brand" href="">
-  <img src="<?php echo get_template_directory_uri(); ?>/photos/logo3.png" alt="logo">
+  <img src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo">
   </div>
 
   <button class="navbar-toggler" style="margin-left:-100px;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
