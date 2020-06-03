@@ -3,9 +3,9 @@
 <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
 
 <div class="socials">
-<a href="https://facebook.com/" class="fa fa-facebook"></a>
-<a href="https://instagram.com/" class="fa fa-instagram"></a>
-<a href="https://linkedin.com/" class="fa fa-linkedin"></a>
+<a href="https://facebook.com/" class="fa fa-facebook" target="_blank"></a>
+<a href="https://instagram.com/" class="fa fa-instagram" target="_blank"></a>
+<a href="https://linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
 </div>
 
 </div>
@@ -33,7 +33,7 @@
 
 .socials{
   margin-left:27%;
-  margin-top:1%;
+  margin-top:2%;
 }
 
  }
