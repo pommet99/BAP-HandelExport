@@ -31,10 +31,10 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav" style="margin-left:5%;">
       <li class="nav-item">
-        <a class="nav-link" href="#">Accueil</a>
+        <a class="nav-link" href="/wordpress">Accueil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Catalogue</a>
+        <a class="nav-link" href="http://localhost/A2/wordpress/pres/">Catalogue</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="partner.php">Partenaire</a>
