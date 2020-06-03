@@ -121,8 +121,7 @@ a.bouton2 {
     font-size: 18px;
 }
 a.bouton2:hover {
-    background: #570906;
-    color: #5EB6DD;
+    background: #5EB6DD;
 }
 
 .flex-container3 {
