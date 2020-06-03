@@ -44,14 +44,18 @@ Tags: bootstrap
     margin-bottom: 50px;
 }
 
-navbar {
+.navbar {
     background-color: #014077;
 }
 
-nav-item {
+.nav-item {
     font-weight: bold;
     color: white;
 }
+
+
+
+/* Content */
 
 .container {
     background-color: #014077;
@@ -65,7 +69,6 @@ nav-item {
 }
 
 .container3 {
-    background-color: #ebebd3;
     max-width: 100%;
     max-height: 1000px;
 }
@@ -134,8 +137,6 @@ a.bouton2:hover {
     padding: 0;
     list-style: none;
 }
-
-/* Content */
 
 /* Footer */
 

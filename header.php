@@ -19,7 +19,7 @@
 <header>
 <div class=container-fullwidth>
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgrey">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:white">
   <div class="navbar-brand" href="">
   <img src="<?php echo get_template_directory_uri(); ?>/photos/logo.png" alt="logo">
   </div>
@@ -37,7 +37,7 @@
         <a class="nav-link" href="#">Catalogue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Partenaire</a>
+        <a class="nav-link" href="partner.php">Partenaire</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Promotion</a>

@@ -1,11 +1,22 @@
 </body>
-<div class="footer" style="background-color:#134074; height:10%; margin-bottom:0; display:flex;">
+<div class="footer" style="background-color:#134074; height:20%; margin-bottom:0; display:flex;">
 <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
 
+<div class="footer-menu">
+  <a class="footer-link" href="#">Mentions Légales</a><br>
+  <a class="footer-link" href="#">Contact</a>
+</div>
+
+<div class="footer-text">
+  <a>2 Rue Fausse Chèneviére, 51390 Gueux</a><br>
+  <a>contact@handelconcept.fr</a><br>
+  <a>03 52 82 97 93</a>
+</div>
+
 <div class="socials">
-<a href="https://facebook.com/" class="fa fa-facebook" target="_blank"></a>
-<a href="https://instagram.com/" class="fa fa-instagram" target="_blank"></a>
-<a href="https://linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+<a href="https://www.facebook.com/handelconcept-106014120776202" class="fa fa-facebook" target="_blank"></a>
+<a href="https://www.instagram.com/handelconcept/?hl=en" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.linkedin.com/company/handel-concept/" class="fa fa-linkedin" target="_blank"></a>
 </div>
 
 </div>
@@ -16,6 +27,10 @@
       padding:0;
       margin-left:-10px;
       margin-top:-5px;
+    }
+
+    .socials{
+      margin-left:0px;
     }
 }
 
@@ -33,10 +48,34 @@
 
 .socials{
   margin-left:27%;
-  margin-top:2%;
 }
 
- }
+.footer-text{
+  color:white;
+  margin-top:30px;
+  margin-left:11%;
+  text-align:center;
+}
+
+.footer-menu{
+  margin-top:40px;
+  margin-left:25px;
+  text-align:center;
+}
+
+.footer-link{
+  color:white;
+  padding:10px;
+  margin-top:20px;
+  text-decoration:none;
+}
+
+.footer-link:hover{
+  color:black;
+  padding:10px;
+  margin-top:20px;
+  text-decoration:none;
+}
 
 </style>
 
