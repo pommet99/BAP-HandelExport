@@ -1,5 +1,5 @@
 </body>
-<div class="footer" style="background-color:#134074; height:10%; margin-bottom:0; margin-top:160%; display:flex;">
+<div class="footer" style="background-color:#134074; height:10%; margin-bottom:0; display:flex;">
 <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
 
 <div class="socials">
