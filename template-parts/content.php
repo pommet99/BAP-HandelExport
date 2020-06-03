@@ -1,5 +1,5 @@
 <?php /*
-    Template Name: presentation
+    Template Name: content
 */
 ?>
 
