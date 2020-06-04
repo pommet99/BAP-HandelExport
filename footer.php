@@ -22,16 +22,27 @@
 </div>
 
 <style>
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     .flogo{
-      padding:0;
-      margin-left:-10px;
-      margin-top:-5px;
+      display:none;
     }
 
     .socials{
       margin-left:0px;
     }
+
+    .footer-menu{
+      display:none;
+    }
+
+    .footer-text{
+      display:none;
+    }
+
+    .socials{
+      margin-left:-20%;
+    }
+
 }
 
 .fa {
@@ -47,13 +58,13 @@
 }
 
 .socials{
-  margin-left:27%;
+  margin-left:24%;
 }
 
 .footer-text{
   color:white;
   margin-top:30px;
-  margin-left:11%;
+  margin-left:14%;
   text-align:center;
 }
 
