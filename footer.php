@@ -3,7 +3,7 @@
 <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
 
 <div class="footer-menu">
-  <a class="footer-link" href="#">Mentions Légales</a><br>
+  <a class="footer-link" href="http://localhost/A2/wordpress/legal/">Mentions Légales</a><br>
   <a class="footer-link" href="#">Contact</a>
 </div>
 
