@@ -124,7 +124,8 @@ a.bouton2 {
     font-size: 18px;
 }
 a.bouton2:hover {
-    background: #5EB6DD;
+    background: beige;
+    color:black
 }
 
 .flex-container3 {
@@ -136,6 +137,13 @@ a.bouton2:hover {
 
     padding: 0;
     list-style: none;
+}
+
+.contact{
+    width:50%;
+    margin-left: 25%;
+    margin-top:50px;
+    margin-bottom:100px;
 }
 
 /* Footer */
