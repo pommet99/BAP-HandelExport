@@ -3,62 +3,58 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+ 
     <?php wp_head(); ?> 
 </head>
 
 <body>
 <header>
-<div class=container-fullwidth>
+<container-fluid>
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:white">
+<nav class="navbar navbar-light" style="margin-top:4%;">
   <div class="navbar-brand" href="">
   <img src="<?php echo get_template_directory_uri(); ?>/photos/logo.png" alt="logo">
   </div>
+  <form class="form-inline my-2 my-lg-0" style="margin-left:-8%;">
+      <input class="form-control mr-sm-2" type="search" placeholder="Chercher un article">
+     <!-- <button class="btn btn-outline-success" type="submit">Rechercher</button> -->
+    </form>
+  <select class="selectpicker" data-width="fit" style="border:none;">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-fr"></span> French'>Français</option>
+</select>
+</nav>
 
-  <button class="navbar-toggler" style="margin-left:-100px;" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav" style="margin-left:5%;">
+    <ul class="navbar-nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/">Accueil</a>
+        <a class="nav-link" href="#">Présentation</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/catalogue/">Catalogue</a>
+        <a class="nav-link" href="#">Catalogue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/partner/">Partenaire</a>
+        <a class="nav-link" href="#">Partenaire</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/promotion/">Promotion</a>
+        <a class="nav-link" href="#">Promotion</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/contact/">Contact</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
   </div>
 </nav>
-
-
-
-<style>
-.nav-item{
-  margin-left:15%;
-  margin-right:15%;
-}
-
-
-</style>
  
-</div>
+</container-fluid>
 </header>

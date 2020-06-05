@@ -2,58 +2,13 @@
 Theme Name: CustomTheme
 Author: Prameet 
 Description: BAP Handel
-Version: 5.4.1
+Version: 0.0.1
 Tags: bootstrap
 */
 
 /* DESKTOP */
 
 /* Header */
-
-.containerintro .text {
-    z-index: 1;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 50%;
-    color: white;
-    font-weight: bold;
-    width: 80%;
-}
-
-.firsth1 {
-    margin-top: -30px;
-    margin-left: 50px;
-    color: white;
-}
-
-.rectangle{
-    width:300px;
-    height:30px;
-    background:#fa8164;
-    margin-top: -35px;
-}
-
-.rectangle2{
-    width:300px;
-    height:5px;
-    background:#fa8164;
-    margin-top: -30px;
-    margin-left: -20px;
-    margin-bottom: 50px;
-}
-
-.navbar {
-    background-color: #014077;
-}
-
-.nav-item {
-    font-weight: bold;
-    color: white;
-}
-
-
 
 /* Content */
 
@@ -148,12 +103,5 @@ a.bouton2:hover {
 
 /* Footer */
 
-.legal{
-    margin-top: 80px;
-    margin-bottom:80px;
-    width:70%;
-    text-align:center;
-    margin-left:15%;
-}
 
 /* RESPONSIVE */
