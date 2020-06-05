@@ -43,6 +43,10 @@
       margin-left:-20%;
     }
 
+    .footer{
+      margin-top:40%;
+    }
+
 }
 
 .fa {
@@ -86,6 +90,10 @@
   padding:10px;
   margin-top:20px;
   text-decoration:none;
+}
+
+.footer{
+  margin-top:10%;
 }
 
 </style>
