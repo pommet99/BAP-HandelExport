@@ -78,7 +78,32 @@ Tags: bootstrap
     color: white;
 }
 
+@media only screen and (max-width: 500px) {
+    .firsth {
+        margin-top: 40px;
+        font-size: 20px;
+    }
 
+    .h1intro{
+        font-size: 30px;
+    }
+
+    .rectangle{
+        width:100%;
+        height:30px;
+        background:#fa8164;
+        margin-top: -35px;
+    }
+
+    .rectangle2{
+        width:100%;
+        height:5px;
+        background:#fa8164;
+        margin-top: -30px;
+        margin-left: -20px;
+        margin-bottom: 50px;
+    }
+}
 
 /* Content */
 
@@ -244,13 +269,20 @@ a.bouton2:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel-control-prev, .carousel-control-next {
-    background-color: rgba(0, 0, 0, 0.5);
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
 }
 
-
-
-
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+}
 
 
 #rectanglecatalogue {
@@ -264,6 +296,45 @@ a.bouton2:hover {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    #rectanglecatalogue {
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        box-shadow: none;
+        border-radius: 0;
+        color: #014077;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #oval {
+        width: 300px;
+        height: 450px;
+        background: red;
+    }
+
+    .flex-container {
+        display: inline;
+        justify-content: space-around;
+
+        padding-top: 100px;
+        padding-bottom: 150px;
+        margin: 0;
+        list-style: none;
+    }
+
+    .containercat {
+        padding: 0;
+    }
+
+    .firsth1 {
+        font-size: 50px;
+    }
 }
 
 /*Partenaire*/
@@ -347,6 +418,47 @@ a.bouton2:hover {
     font-weight: bold;
 }
 
+.partnerlogo {
+    max-width: 250px;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 500px){
+
+    #rectanglepartner {
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        background: #014077;
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #rectanglepartner2 {
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        background: #FAFAFA;
+    }
+
+    .containerpartner3 {
+        padding: 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .partnerlogo {
+        padding: 10px;
+    }
+
+    .flex-container-partner {
+        box-sizing: content-box;
+        width: 100%;
+    }
+}
+
 /* Promotion*/
 
 .containerpromointro {
@@ -415,6 +527,23 @@ a.bouton2:hover {
     position: center;
 }
 
+@media only screen and (max-width: 500px){
+    .containerpromointro {
+        padding: 0;
+        text-align: center;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .introppagepartner {
+        margin-top: 0;
+        margin-left: 0;
+        color: #014077;
+
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
 /* form */
 
 /* Footer */
@@ -428,3 +557,4 @@ a.bouton2:hover {
 }
 
 /* RESPONSIVE */
+
