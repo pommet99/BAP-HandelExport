@@ -31,19 +31,19 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav" style="margin-left:5%;">
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/">Accueil</a>
+        <a class="nav-link" href="http://localhost/wordpress/pres">Accueil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/catalogue/">Catalogue</a>
+        <a class="nav-link" href="http://localhost/wordpress/catalogue/">Catalogue</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/partner/">Partenaire</a>
+        <a class="nav-link" href="http://localhost/wordpress/partner/">Partenaire</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/promotion/">Promotion</a>
+        <a class="nav-link" href="http://localhost/wordpress/promotion/">Promotion</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/A2/wordpress/contact/">Contact</a>
+        <a class="nav-link" href="http://localhost/wordpress/contact/">Contact</a>
       </li>
     </ul>
   </div>

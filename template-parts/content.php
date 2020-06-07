@@ -2,20 +2,21 @@
     Template Name: content
 */
 ?>
+<?php get_header(); ?>
 
 <body>
 
 <div>
     <div class="containerintro">
-        <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/creatv-eight-9SXZ3JnZ9Wk-unsplash.jpg" style="max-width: 100%">
+        <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/photo_intro.png" style="max-width: 100%">
         <div class="text">
-            <h1>EQUIPEMENT DE CUISINE<br>
+            <h1 class="h1intro">EQUIPEMENT DE CUISINE<br>
             PROFESSIONNEL</h1>
         </div>
     </div>
 
     <div class="container">
-        <h1 class="firsth1">Présentation</h1>
+        <h1 class="firsth">PRÉSENTATION</h1>
         <div class="rectangle"></div>
         <ul class="flex-container">
             <li class="flex-item">
@@ -39,20 +40,20 @@
     <div class="container2">
     <ul class="flex-container2">
         <li class="flex-item2">
-            <div id="cercle"></div>
+            <div id="cercle"><img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/michael-browning-MtqG1lWcUw0-unsplash.png" style="width:500px; clip-path:circle(150px at 50% 150px); margin-top: -125px; margin-left: -125px;"></div>
         </li>
         <li class="flex-item2">
-            <div id="cercle"></div>
+            <div id="cercle"><img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/shangyou-shi-VdRex9AiBOc-unsplash.png" style="width:500px; clip-path:circle(150px at 50% 150px); margin-top: -125px; margin-left: -125px;"></div>
         </li>
         <li class="flex-item2">
-            <div id="cercle"></div>
+            <div id="cercle"><img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/zhaoqi-yu-1tiLDBo0Wlk-unsplash.png" style="width:500px; clip-path:circle(150px at 50% 150px); margin-top: -125px; margin-left: -125px;"></div>
         </li>
     </ul>
     </div>
     <div class="container3">
 
         <ul class="flex-container3">
-        <a href="http://www.adresse-de-votre-choix.com/" class="bouton2">NOS PRODUITS</a>
+        <a href="http://localhost/wordpress/catalogue/" class="bouton2">NOS PRODUITS</a>
         </ul>
     </div>
 </div>
@@ -60,5 +61,6 @@
 </body>
 
 
+<?php get_footer(); ?>
 
 

@@ -2,13 +2,83 @@
 Theme Name: CustomTheme
 Author: Prameet 
 Description: BAP Handel
-Version: 0.0.1
+Version: 5.4.1
 Tags: bootstrap
 */
 
 /* DESKTOP */
 
 /* Header */
+
+.containerintro .text {
+    z-index: 1;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+}
+
+.h1intro {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.firsth {
+    margin-top: -40px;
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.firsth1 {
+    margin-top: -30px;
+    margin-left: 50px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.rectangle{
+    width:300px;
+    height:30px;
+    background:#fa8164;
+    margin-top: -35px;
+}
+
+.rectangle2{
+    width:300px;
+    height:5px;
+    background:#fa8164;
+    margin-top: -30px;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+
+.rectanglepartner{
+    width:500px;
+    height:5px;
+    background:#fa8164;
+    margin-top: -30px;
+    margin-left: -40px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background-color: #014077;
+}
+
+.nav-item {
+    font-weight: bold;
+    color: white;
+}
+
+
 
 /* Content */
 
@@ -47,7 +117,26 @@ Tags: bootstrap
     color: white;
 }
 
+.becomeround {
+    width:200px;
+    clip-path:ellipse(30% 50%);
+}
+
 #cercle {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    padding-top: 100px;
+}
+
+.rectangle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: green;
+}
+
+#cercle2 {
     width: 250px;
     height: 250px;
     border-radius: 250px;
@@ -73,14 +162,14 @@ Tags: bootstrap
 
 a.bouton2 {
     padding: 15px 40px;
-    background: #46a28d;
+    border-radius: 25px;
+    background: #014077;
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 a.bouton2:hover {
-    background: beige;
-    color:black
+    background: #fa8164;
 }
 
 .flex-container3 {
@@ -94,7 +183,248 @@ a.bouton2:hover {
     list-style: none;
 }
 
+
+
+/*Catalogue*/
+
+.pcatalogue {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.pcatdescription {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.pcatdescriptiongen {
+    margin-top: 50px;
+    font-style: italic;
+}
+
+.h2cat {
+    text-align: center;
+    font-weight: bold;
+}
+
+.containercat2 {
+    max-width: 100%;
+    max-height: 1000px;
+    margin: 100px 0 100px 0;
+}
+
+#oval {
+    width: 300px;
+    height: 450px;
+    background: red;
+}
+
+.containercat {
+    background-color: #014077;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 100px;
+    color: white;
+}
+
+
+.caroussel {
+    padding-top: 100px;
+
+}
+
+.d-block {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 500px;
+}
+
+.carousel-caption {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+#rectanglecatalogue {
+    margin-left: -30px;
+    width: 1000px;
+    height: 80px;
+    background: white;
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 10px;
+    color: #014077;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Partenaire*/
+
+.containerpartner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.containerpartner2 {
+    padding: 100px 0 50px 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.containerpartner3 {
+    padding: 0 300px 0 300px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#rectanglepartner {
+    margin-left: -30px;
+    width: 600px;
+    height: 80px;
+    background: #014077;
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#rectanglepartner2 {
+    margin-left: -30px;
+    width: 1000px;
+    height: 100px;
+    background: #FAFAFA;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.flex-container-partner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-container-import {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item-partner {
+    background: tomato;
+    width: 250px;
+    height: 150px;
+    margin: 30px auto 30px auto;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.introppagepartner {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #014077;
+
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* Promotion*/
+
+.containerpromointro {
+    padding: 200px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.containerpromo2 {
+    padding: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #014077;
+}
+
+.containerpromo {
+    padding: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-container_promo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.flex-item_promo {
+    padding: 1px;
+    width: 400px;
+    height: 550px;
+    margin: 5px;
+    color: black;
+}
+
+.imgpromo {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.flex-item_promo1 {
+    padding: 10px;
+    width: 400px;
+    height: 550px;
+    margin: 5px;
+}
+
+.flex-item_promo2 {
+    padding: 10px;
+    width: 400px;
+    height: 550px;
+    margin: 5px;
+    color: white;
+}
+
+.rectanglepromo{
+    width:250px;
+    height:25px;
+    background:#fa8164;
+    margin: -30px auto 0;
+    position: center;
+}
+
+/* form */
+
 /* Footer */
 
+.legal{
+    margin-top: 80px;
+    margin-bottom:80px;
+    width:70%;
+    text-align:center;
+    margin-left:15%;
+}
 
 /* RESPONSIVE */
