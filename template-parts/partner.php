@@ -31,78 +31,78 @@
     </div>
     <div class="containerpartner2">
         <h1>Partenaires</h1><br>
-        <div class="rectanglepartner"></div>
+        <div class="rectanglepartner" ></div>
     </div>
     <div class="containerpartner3">
         <ul class="flex-container-partner">
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo-degrenne-print.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo-degrenne-print.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/De_Buyer_Logo.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/De_Buyer_Logo.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/Logo-Mallard-ferriere.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/Logo-Mallard-ferriere.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/RobuR.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/RobuR.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logomolinel.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logomolinel.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/2839-thickbox_default.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/2839-thickbox_default.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo-platex.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo-platex.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo_saint-romain_0.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo_saint-romain_0.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/cgmp.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/cgmp.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/racleur-caoutchouc-supplementaire-c80-robot-coupe.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/racleur-caoutchouc-supplementaire-c80-robot-coupe.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/rosinox.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/rosinox.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/plastorex-logo-1572721276.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/plastorex-logo-1572721276.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/arcoroc-le-petit-fournisseur.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/arcoroc-le-petit-fournisseur.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/FISCHER-BARGOIN-L-ENCLUME-COUTEAUX-DE-CUISINE.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/FISCHER-BARGOIN-L-ENCLUME-COUTEAUX-DE-CUISINE.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/friginox.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/friginox.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/ambassade.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/ambassade.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/tellierfrance.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/tellierfrance.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/rieber.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/rieber.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/tournusequipement.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/tournusequipement.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/alvene.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/alvene.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/dagard.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/dagard.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo-matfer_0.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/logo-matfer_0.png">
             </li>
             <li>
-                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/bourgeat.png" style="max-width: 250px; padding: 50px">
+                <img class="partnerlogo" src="<?php echo get_template_directory_uri(); ?>/photos/partner/1/bourgeat.png">
             </li>
         </ul>
     </div>

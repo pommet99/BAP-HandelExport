@@ -1,16 +1,16 @@
 </body>
 <div class="footer" style="background-color:#134074; height:20%; margin-bottom:0; display:flex;">
-<img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding:15px">
+<img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/logo2.png" alt="logo" style="padding: 20px 40px 20px 40px">
+
+    <div class="footer-text">
+        <a>2 Rue Fausse Chèneviére, 51390 Gueux</a><br>
+        <a>contact@handelconcept.fr</a><br>
+        <a>03 52 82 97 93</a>
+    </div>
 
 <div class="footer-menu">
-  <a class="footer-link" href="http://localhost/wordpress/legal/">Mentions Légales</a><br>
-  <a class="footer-link" href="#">Contact</a>
-</div>
-
-<div class="footer-text">
-  <a>2 Rue Fausse Chèneviére, 51390 Gueux</a><br>
-  <a>contact@handelconcept.fr</a><br>
-  <a>03 52 82 97 93</a>
+  <a class="footer-link" href="http://localhost/wordpress/legal/">Mentions Légales</a>
+  <a class="footer-link" href="http://localhost/wordpress/contact/">Contact</a>
 </div>
 
 <div class="socials">
@@ -62,20 +62,23 @@
 }
 
 .socials{
-  margin-left:24%;
+    margin-left:24%;
+    margin-top:auto;
+    margin-bottom: auto;
 }
 
 .footer-text{
-  color:white;
-  margin-top:30px;
-  margin-left:14%;
-  text-align:center;
+    color:white;
+    margin-top:auto;
+    margin-bottom: auto;
+    font-weight: bold;
 }
 
 .footer-menu{
-  margin-top:40px;
-  margin-left:25px;
-  text-align:center;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left:400px;
+    text-align:center;
 }
 
 .footer-link{
