@@ -8,7 +8,7 @@
 
 <div>
     <div class="containerintro">
-        <img class="flogo" src="<?php echo get_template_directory_uri(); ?>/photos/photo_intro.png" style="max-width: 100%">
+        <img class="imghome" src="<?php echo get_template_directory_uri(); ?>/photos/photo_intro.png" style="max-width: 100%">
         <div class="text">
             <h1 class="h1intro">EQUIPEMENT DE CUISINE<br>
             PROFESSIONNEL</h1>

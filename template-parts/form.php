@@ -11,14 +11,14 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="containercontact" style="margin: 0 200px 100px 200px">
+<div class="containercontact">
     <div>
         <h2>UNE QUESTION À POSER ? VOUS ÊTES AU BON ENDROIT !</h2>
         <p>Utilisez le formulaire ci-dessous.</p>
     </div>
 </div>
 
-<div class=”page-content” style="margin: 10px 500px 10px 500px;">
+<div class=”page-content”>
     <?php
         while (have_posts()) : the_post();
         the_content();
