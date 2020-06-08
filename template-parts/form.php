@@ -18,7 +18,7 @@ get_header(); ?>
     </div>
 </div>
 
-<div class=”page-content”>
+<div class=”page-content” style="width:70%;margin-left:15%;">
     <?php
         while (have_posts()) : the_post();
         the_content();

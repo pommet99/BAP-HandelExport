@@ -9,8 +9,8 @@
     </div>
 
 <div class="footer-menu">
-  <a class="footer-link" href="http://localhost/wordpress/legal/">Mentions Légales</a>
-  <a class="footer-link" href="http://localhost/wordpress/contact/">Contact</a>
+  <a class="footer-link" href="http://localhost/A2/wordpress/legal/">Mentions Légales</a>
+  <a class="footer-link" href="http://localhost/A2/wordpress/contact/">Contact</a>
 </div>
 
 <div class="socials">
@@ -62,7 +62,7 @@
 }
 
 .socials{
-    margin-left:24%;
+    margin-left:10%;
     margin-top:auto;
     margin-bottom: auto;
 }
@@ -77,7 +77,7 @@
 .footer-menu{
     margin-top:auto;
     margin-bottom: auto;
-    margin-left:400px;
+    margin-left:10%;
     text-align:center;
 }
 

@@ -53,7 +53,7 @@
     <div class="container3">
 
         <ul class="flex-container3">
-        <a href="http://localhost/wordpress/A2/catalogue/" class="bouton2">NOS PRODUITS</a>
+        <a href="http://localhost/A2/wordpress/catalogue/" class="bouton2">NOS PRODUITS</a>
         </ul>
     </div>
 </div>
